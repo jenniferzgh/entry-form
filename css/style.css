@@ -1,0 +1,146 @@
+*{
+	margin: 0px ;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+	font-style: "微软雅黑";
+
+}
+body{margin: 0px;
+padding: 0px;
+}
+#mainbody{
+	width: 100%;
+	min-width: 1300px;
+	height: 800px;
+	background:url("../images/background.gif") center no-repeat;
+	background-size: cover;
+}
+#top{
+	width: 100%;
+	height: 50px;
+	background-color: #97b9cd;
+	opacity:0.8;
+	position: relative;
+	margin: 0 auto;
+}
+#img{
+	width: 70px;
+	height:50px;
+	position: absolute;
+	top:0px;
+	left: 100px;
+}
+#img>img{
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#img_and_title{
+	width: 450px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+
+
+}
+#img_and_title>img{
+	display: block;
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 5px;
+	left: 190px;
+
+}
+#img_and_title>h1{
+	display: block;
+	position: absolute;
+	top: 55px;
+	left: 10px;
+	font-size: 30px;
+
+
+
+}
+#form{
+	width: 380px;
+	height: 560px;
+	margin: 0 auto;
+	position: relative;
+	
+
+}
+.import{
+	width: 380px;
+	height: 26px;
+	position: absolute;
+	left: 0px;
+
+}
+#name{top: 50px;
+}
+#sax{
+	top: 87px;		
+}
+#class{
+	top:124px;
+}
+#phone{
+	top:161px;
+
+}
+#center{
+	top:198px;
+
+}
+
+#evaluation{
+	height: 110px;
+	top:234px;
+
+}
+#background{
+	height: 140px;
+	top: 354px;
+}
+#tijiao{
+	top: 510px;
+}
+span{
+	font-size: 16px;
+	float: right;
+
+}
+input{width: 260px;
+height: 22px;
+float: right;
+margin-left: 5px;
+}
+select{
+	width: 265px;
+	height: 22px;
+	float: right;
+	margin-left: 5px;
+}
+textarea{
+	width: 260px;
+	float: right;
+	margin-left: 5px;
+}
+#hobby{
+	height: 108px;
+}
+#background_text{
+	height: 138px;
+}
+#tijiao>input{
+	width: 50px;
+	height: 24px;
+	cursor: pointer;
+	line-height: 24px;
+
+}
